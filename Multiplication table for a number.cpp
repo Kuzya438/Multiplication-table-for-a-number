@@ -6,10 +6,10 @@ int main() {
 
 	int var{};
 	
-	std::cout << "Ââåäèòå öåëîå ÷èñëî:" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:" << std::endl;
 	std::cin >> var;
 
-	for (int i{1}; i <= 10; i++)
+	for (int i{1}; i <= 10; ++i)
 		std::cout << var << " x " << i << " = " << var * i << std::endl;
 
 	return EXIT_SUCCESS;
